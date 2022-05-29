@@ -610,8 +610,8 @@ footer {
     }
 
     #presentacion .texto {
-        width: auto;
-        margin-top: 60px;
+        width: auto;        
+        padding: 0;
     }
 
     .texto h2 {
