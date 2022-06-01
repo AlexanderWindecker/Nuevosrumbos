@@ -53,12 +53,9 @@ h1 {
     font-family: 'Indie Flower', cursive;
 }
 
-
-
-header a:hover {
-    color: #cbcbcb;
+.div-estilos a{
+    color: white;
 }
-
 
 
 
@@ -295,19 +292,19 @@ h3 {
 
 @keyframes cambiar{
 
-    0%{margin-top: -16px;}
-    20%{margin-top: -16px;}
+    0%{margin-top: -0px;}
+    20%{margin-top: -0px;}
 
-    25%{margin-top: -120px;}
-    50%{margin-top: -120px;}
+    25%{margin-top: -70px;}
+    50%{margin-top: -70px;}
 
-    55%{margin-top: -220px;}
-    80%{margin-top: -220px;}
+    55%{margin-top: -140px;}
+    80%{margin-top: -140px;}
 
-    85%{margin-top: -16px;}
-    95%{margin-top: -16px;}
+    85%{margin-top: -70px;}
+    95%{margin-top: -70px;}
 
-    100%{margin-top: -16px;}
+    100%{margin-top: -0px;}
 }
 
 
@@ -317,6 +314,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 300px;
+    flex-wrap: wrap;
     padding: 20px;
     grid-gap: 10px;
     
@@ -351,62 +349,8 @@ h3 {
     transform: rotate(10deg) scale(1.3);
 }
 
-/* .div-img:nth-child(4) {
-    grid-column-start: span 2;
-}
-
-.div-img:nth-child(5) {
-    grid-row-start: span 2;
-}
-
-.div-img:nth-child(7) {
-    grid-row-start: span 2;
-}
-
-.div-img:nth-child(10) {
-    grid-row-start: span 2;
-} */
-
-
-
-
-
-
-
-
 
 /* Aca comienza como comprar */
-
-.titulocompra {
-    display: block;
-    margin: 35px;
-    text-align: center;
-    margin-top: 80px;
-
-}
-
-.titulocompra p {
-    font-size: 19px;
-}
-
-.listas {
-    display: block;
-    position: relative;
-    align-items: center;
-
-}
-
-.div-listas {
-    display: inline-block;
-
-}
-
-.listas li {
-    display: list-item;
-    margin-top: 20px;
-
-
-}
 
 
 
@@ -514,13 +458,13 @@ h3 {
 
 /* Este es el footer para todos */
 
-footer {
+/* footer {
     display: flex;
     justify-content: end;
     padding: 20px;
 
 }
-
+ */
 
 
 
@@ -531,34 +475,12 @@ footer {
 
 
 
-   
-
-    .grid-contenedor .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-
-    }
+    
 
     .grid-contenedor a {
         font-size: 1.1em;
         text-align: center;
     }
-
-    .container h1 {
-        text-align: center;
-        font-size: 2em;
-    }
-
-    .orden-nav {
-        display: block;
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-        
-    }
-
 
 
     #presentacion .contain {
@@ -629,7 +551,7 @@ footer {
     }
 
 
-    footer .div-footer {
+   /*  footer .div-footer {
         justify-content: center;
         margin: auto;
 
@@ -638,7 +560,7 @@ footer {
     .div-footer {
         display: flex;
         text-align: center;
-    }
+    } */
 
 
     /*  Aca arranca galeria */
@@ -729,5 +651,5 @@ footer {
     }
 
 
-
 }
+
