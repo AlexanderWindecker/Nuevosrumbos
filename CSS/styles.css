@@ -18,8 +18,10 @@ body {
 
 .grid-contenedor {
 
-    width: 90%;
-    margin: 1.6em auto;
+    width: auto;
+    margin:
+        /* 1.6em */
+        auto;
 
     display: grid;
     gap: 1.6em;
@@ -53,7 +55,7 @@ h1 {
     font-family: 'Indie Flower', cursive;
 }
 
-.div-estilos a{
+.div-estilos a {
     color: white;
 }
 
@@ -68,6 +70,7 @@ h1 {
 
 #presentacion .texto {
     width: 50%;
+    margin: 15px;
     max-width: 600px;
     text-align: initial;
     padding-left: 30px;
@@ -246,65 +249,127 @@ h3 {
 
 /* Aca comienza galeria */
 
+.carousel-indicators button.img-thumbnail {
+    width: 100%;
 
-.animacion{
+}
 
-    display: flex;    
+.img-thumbail {
+    max-width: 100%;
+}
+
+.carousel-indicators {
+    position: static;
+}
+
+.carousel {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    height: 80vh;
+
+}
+
+.carousel-item {
+    max-height: 100%;
+
+}
+
+.imagen-item img {
+    height: 100px;
+
+
+}
+
+.imagen-item img {
+    max-height: 100%;
+}
+
+.galeria {
+    margin-top: 100px;
+
+
+}
+
+
+.animacion {
+
+    display: flex;
     width: 540px;
     height: 60px;
     color: #42687c;
     font-size: 40px;
-    line-height: 70px;
-    grid-column: 3/6; 
-    
-    
+    line-height: 70px;   
+    justify-content: center;
+    margin: auto;
     overflow: hidden;
-    
+
 }
 
 
 
-.ul-animacion{
+.ul-animacion {
     list-style: none;
-    
     margin: 0;
     animation: cambiar 7s infinite;
     height: 200px;
     margin-top: 0;
     padding-top: 0;
-    
-    
-    
-    
+    color: black;
+
 }
 
-.animacion p{
+.animacion p {
     font-size: 60px;
 }
 
 
 
-.animacion ul   {
+.animacion ul {
     margin: -16px 7px;
-    
-     
+
+
 }
 
-@keyframes cambiar{
+@keyframes cambiar {
 
-    0%{margin-top: -0px;}
-    20%{margin-top: -0px;}
+    0% {
+        margin-top: -0px;
+    }
 
-    25%{margin-top: -70px;}
-    50%{margin-top: -70px;}
+    20% {
+        margin-top: -0px;
+    }
 
-    55%{margin-top: -140px;}
-    80%{margin-top: -140px;}
+    25% {
+        margin-top: -70px;
+    }
 
-    85%{margin-top: -70px;}
-    95%{margin-top: -70px;}
+    50% {
+        margin-top: -70px;
+    }
 
-    100%{margin-top: -0px;}
+    55% {
+        margin-top: -140px;
+    }
+
+    80% {
+        margin-top: -140px;
+    }
+
+    85% {
+        margin-top: -70px;
+    }
+
+    95% {
+        margin-top: -70px;
+    }
+
+    100% {
+        margin-top: -0px;
+    }
 }
 
 
@@ -317,14 +382,14 @@ h3 {
     flex-wrap: wrap;
     padding: 20px;
     grid-gap: 10px;
-    
+
 
 
 }
 
 
 
-.galeria--img img{
+.galeria--img img {
     transition: transform 0.5s;
 }
 
@@ -337,14 +402,14 @@ h3 {
 
 }
 
-.section .div-img{
+.section .div-img {
     display: block;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
-.section  .div-img:hover img{
+.section .div-img:hover img {
     filter: blur(2px);
     transform: rotate(10deg) scale(1.3);
 }
@@ -462,7 +527,7 @@ h3 {
 
 
 
-    
+
 
     .grid-contenedor a {
         font-size: 1.1em;
@@ -476,7 +541,7 @@ h3 {
     }
 
     #presentacion .texto {
-        width: auto;        
+        width: auto;
         padding: 0;
     }
 
@@ -513,8 +578,8 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        
+
+
 
     }
 
@@ -524,7 +589,7 @@ h3 {
 
         padding: 15px;
         width: 90%;
-       
+
 
     }
 
@@ -544,7 +609,7 @@ h3 {
 
     /*  Aca arranca galeria */
 
-   
+
 
 
     .section .galeria-img {
@@ -603,6 +668,20 @@ h3 {
 
     }
 
+    /* Footer */
+
+    .div-footer p{
+        text-align: center;        
+        font-size: 25px;
+        
+    }
+
+    .div-footer{
+        text-align: center;
+        margin-top: 25px;        
+        
+        
+    }
 }
 
 
@@ -614,13 +693,13 @@ h3 {
 
 
 
-/* Galeria */
+    /* Galeria */
 
 
 
 
     #nuestros-servicios {
-        width: 90%;
+        width: 100%;
     }
 
 
@@ -634,5 +713,14 @@ h3 {
     }
 
 
-}
+    /* Footer */
 
+    .footer p {
+
+        justify-content: center;
+
+
+    }
+
+
+}
