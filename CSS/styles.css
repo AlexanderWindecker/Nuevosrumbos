@@ -193,14 +193,30 @@ h3 {
 
 }
 
+.titulo-parte2{
+    font-size: 40px;
+}
+
 .section .descripcion--parte2 {
-    display: flex;
+    
     background-color: rgba(50, 50, 50, 0.5);
     padding: 10px;
     height: auto;
-
-
 }
+
+.img-quienes-somos img{
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;    
+    float: left;
+}
+
+.section .descripcion--parte2 p{
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+
 
 .photo {
 
@@ -249,6 +265,9 @@ h3 {
 
 /* Aca comienza galeria */
 
+
+
+
 .carousel-indicators button.img-thumbnail {
     width: 100%;
 
@@ -265,6 +284,7 @@ h3 {
 .carousel {
     max-width: 50%;
     margin: 0 auto;
+   
 }
 
 .carousel-item img {
@@ -296,7 +316,7 @@ h3 {
 
 .animacion {
 
-    display: flex;
+    display: flex;    
     width: 540px;
     height: 60px;
     color: #42687c;
@@ -612,16 +632,6 @@ h3 {
 
 
 
-    .section .galeria-img {
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-
-    .div-img:nth-child(13) {
-        grid-column-start: span 2;
-    }
-
-
     /* aca arranca sobrenosotros  */
 
 
@@ -693,7 +703,7 @@ h3 {
 
 
 
-    /* Galeria */
+    
 
 
 
