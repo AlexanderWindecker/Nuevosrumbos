@@ -18,7 +18,11 @@ body {
 
 .grid-contenedor {
 
-    width: 100%;
+    width: auto;
+    margin:
+        /* 1.6em */
+        auto;
+
     display: grid;
     gap: 1.6em;
     grid-template-columns: repeat(5, 1fr)
@@ -189,28 +193,28 @@ h3 {
 
 }
 
-.titulo-parte2 {
+.titulo-parte2{
     font-size: 40px;
 }
 
 .section .descripcion--parte2 {
-
+    
     background-color: rgba(50, 50, 50, 0.5);
     padding: 10px;
     height: auto;
 }
 
-.img-quienes-somos img {
+.img-quienes-somos img{
     width: 300px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
     float: left;
 }
 
-.section .descripcion--parte2 p {
+.section .descripcion--parte2 p{
     font-size: 18px;
     margin-top: 20px;
-
+    
 }
 
 
@@ -262,13 +266,7 @@ h3 {
 /* Aca comienza galeria */
 
 
-.pasteleria{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 
-}
 
 .carousel-indicators button.img-thumbnail {
     width: 100%;
@@ -286,11 +284,11 @@ h3 {
 .carousel {
     max-width: 50%;
     margin: 0 auto;
-
+   
 }
 
 .carousel-item img {
-    height: 50vh;
+    height: 80vh;
 
 }
 
@@ -318,12 +316,12 @@ h3 {
 
 .animacion {
 
-    display: flex;
+    display: flex;    
     width: 540px;
     height: 60px;
     color: #42687c;
     font-size: 40px;
-    line-height: 70px;
+    line-height: 70px;   
     justify-content: center;
     margin: auto;
     overflow: hidden;
@@ -438,9 +436,6 @@ h3 {
 
 
 
-/* Aca comienza como comprar */
-
-
 
 
 
@@ -549,32 +544,6 @@ h3 {
 
 
 @media screen and (max-width: 768px) {
-
-    .grid-contenedor {
-
-        width: 100%;
-        display: grid;
-        gap: 1.6em;
-        grid-template-columns: repeat(1, 1fr)
-    }
-
-    .grid-contenedor .header,
-    .grid-contenedor .footer {
-        grid-column: 1;
-        background-color: #42687c;
-
-    }
-
-    .grid-contenedor .section {
-        grid-column: 1;
-        height: auto;
-
-    }
-
-    .grid-contenedor .main {
-        grid-column: 1;
-    }
-
 
 
     .grid-contenedor a {
@@ -708,17 +677,17 @@ h3 {
 
     /* Footer */
 
-    .div-footer p {
-        text-align: center;
+    .div-footer p{
+        text-align: center;        
         font-size: 25px;
-
+        
     }
 
-    .div-footer {
+    .div-footer{
         text-align: center;
-        margin-top: 25px;
-
-
+        margin-top: 25px;        
+        
+        
     }
 }
 
