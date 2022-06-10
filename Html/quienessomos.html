@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevos Rumbos</title>
+    <title>Quienes Somos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
@@ -14,33 +14,42 @@
     <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 
-<body>
+<body class="grid-container">
 
-    <div class="grid-contenedor">
+    
 
-        <header class="header">
-            <div class="container">
-                <nav class="navbar navbar-inverse  bg-inverse navbar-expand-md">
-                    <div class="container-fluid">
-                        <a class="navbar-brand fs-1 text-wrap" href="#">Nuevos Rumbos Pasteleria</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <div class="navbar-nav ms-auto div-estilos">
+    <header class="header" >
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container d-flex ">
+                <a class="navbar-brand fs-1" href="#">Nuevos rumbos pasteleria</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse div-estilos" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                            <a class="nav-link active" href="../Html/quienessomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Html/quienessomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="../Html/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="../Html/comocomprar.html">Como Comprar</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="../Html/contacto.html">Contacto</a>
-                        </div>
-                    </div>
-                </nav>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </header>
+        </nav>
+    </header>
 
         <section id="quienes-somos" class="section">
             <div class="container--padre">
@@ -89,25 +98,28 @@
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="container">
+        <footer class="footer bd-footer py-5 mt-5">
+            <div class="container py-5">
                 <div class="row p-5 pb-2 text-white">
-                    <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="col-lg-3 mb-3">
                         <br>
                         <br>
-                        <img src="../IMG/logo.jpg" width="150" height="150" class="rounded mx-auto d-block" alt="...">
+                        <img src="../IMG/logo.jpg" width="150" height="150" class="rounded mx-auto d-block"
+                            alt="...">
                     </div>
-                    <div class="col-xs-12 col-md-6 col-lg-3 div-footer">
+                    <div class="col-6 col-lg-2 offset-lg-1 mb-3 div-footer">
                         <p class="h5 fw-bold">Navegacion</p>
-                        <div class="ms-auto div-estilos mt-4 ">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                            <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
-                            <a class="nav-link" href="./galeria.html">Galeria</a>
-                            <a class="nav-link" href="./comocomprar.html">Como Comprar</a>
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        <div class="ms-auto div-estilos mt-4">
+                            <ul class="list-unstyled">
+                            <li class="mb-2 "><a aria-current="page" href="../index.html">Inicio</a></li>
+                            <li class="mb-2 "><a href="../Html/quienessomos.html">Quienes Somos</a></li>
+                            <li class="mb-2 "><a href="../Html/galeria.html">Galeria</a></li>
+                            <li class="mb-2 "><a href="../Html/comocomprar.html">Como Comprar</a></li>
+                            <li class="mb-2 "><a href="../Html/contacto.html">Contacto</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6 col-lg-3 div-footer">
+                    <div class="col-6 col-lg-2 div-footer">
                         <p class="h5 fw-bold">Redes</p>
                         <div class="mt-4">
                             <a class="text-white text-decoration-none" href="">Instagram</a>
@@ -116,16 +128,16 @@
                             <a class="text-white text-decoration-none" href="">Facebook</a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6 col-lg-3 div-footer">
+                    <div class="col-lg-3 mb-3 div-footer">
                         <p class="h5 fw-bold">Contacto</p>
                         <div class="mt-4">
                             <a class="text-white text-decoration-none" href="">Whatsapp</a>
                         </div>
                         <div class="mt-4">
-                            <p class=>Nuevosrumbos@prueba.com</p>
+                            <p class=>nuevosrumbos@prueba.com</p>
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-lg-6 mx-auto">
                         <p class="text-decoration-none text-white text-center">&copy; A. Windecker 2022</p>
                     </div>
                 </div>
@@ -133,7 +145,7 @@
 
         </footer>
 
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
