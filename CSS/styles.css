@@ -251,10 +251,6 @@ h3 {
 /* footer */
 /* Aca comienza para celular */
 @media screen and (max-width: 768px) {
-  .logo {
-    font-size: 2px;
-    color: red;
-    flex-direction: column; }
   .grid-container a {
     font-size: 1.1em;
     text-align: center; }
