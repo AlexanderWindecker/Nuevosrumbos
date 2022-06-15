@@ -154,17 +154,19 @@ h3 {
     .carta1 {
 
 
-        @include carta (red)
+        @include carta;
+        background-color:map-get($color-secundario, secundario );
     }
 
     .carta2 {
 
-        @include carta (violet)
+        @include carta;
+         background-color:map-get($color-secundario, secundario );
     }
 
     .carta3 {
 
-        @include carta (yellow)
+        @include carta; background-color:map-get($color-secundario, secundario ); 
     }
 
     .carta1:first-child {
