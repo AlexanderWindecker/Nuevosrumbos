@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    
+
 
 }
 
@@ -119,6 +119,7 @@ h3 {
 }
 
 #nuestros-servicios {
+
     text-align: center;
 
     .servicios {
@@ -154,13 +155,11 @@ h3 {
 
 
         @include carta (red)
-        
-
     }
 
     .carta2 {
 
-        @include carta (blueviolet)
+        @include carta (violet)
     }
 
     .carta3 {
@@ -168,33 +167,34 @@ h3 {
         @include carta (yellow)
     }
 
-}
-
-.carta1:first-child {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../IMG/pastel1.jpg");
+    .carta1:first-child {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("../IMG/pastel1.jpg");
 
 
-}
+    }
 
-.carta2:nth-child(2) {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../IMG/pastel2.jpg");
+    .carta2:nth-child(2) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("../IMG/pastel2.jpg");
 
-}
-
-
-.carta3:nth-child(3) {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../IMG/pastel3.jpg");
+    }
 
 
+    .carta3:nth-child(3) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("../IMG/pastel3.jpg");
+
+
+    }
 }
 
 /* Aca comienza el css para quienessomos */
+
+
 
 .container--padre {
     display: flex;
@@ -275,6 +275,7 @@ h3 {
     }
 
 }
+
 
 /* Aca comienza galeria */
 
@@ -446,32 +447,32 @@ h3 {
 
                 padding: 15px;
                 width: 90%;
-    
-    
-    
+
+
+
             }
 
             .carta2 {
 
                 padding: 15px;
                 width: 90%;
-    
-    
-    
+
+
+
             }
 
             .carta3 {
 
                 padding: 15px;
                 width: 90%;
-    
-    
-    
+
+
+
             }
 
         }
 
-        
+
 
         button {
             display: flex;
@@ -537,8 +538,6 @@ h3 {
 }
 
 @media screen and (min-width: 769px) {
-
-
     #nuestros-servicios {
         width: 100%;
 
@@ -551,9 +550,4 @@ h3 {
 
         }
     }
-
-    /* Footer */
-
-
-
 }
