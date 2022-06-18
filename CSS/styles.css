@@ -166,7 +166,6 @@ h3 {
     margin: 25px;
     font-size: 20px; }
 
-/* Aca comienza galeria */
 /* Aca comienza contacto */
 .flex-container {
   padding: 20px;
@@ -220,7 +219,6 @@ h3 {
       text-align: center;
       padding: 40px; }
 
-/* footer */
 /* Aca comienza para celular */
 @media screen and (max-width: 768px) {
   .grid-container a {
@@ -282,8 +280,7 @@ h3 {
       .section .flex-container .form__input {
         width: 70%; }
       .section .flex-container .img-container {
-        width: 100%; }
-  /* Footer */ }
+        width: 100%; } }
 
 @media screen and (min-width: 769px) {
   #nuestros-servicios {
