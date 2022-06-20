@@ -52,6 +52,8 @@ h3 {
     #presentacion .contain .texto h1 {
       font-size: 55px;
       font-family: "Joan", serif; }
+    #presentacion .contain .texto p {
+      text-align: center; }
   #presentacion .contain .img-container {
     background-image: url(../IMG/principal.jpg);
     background-size: cover;
@@ -220,6 +222,10 @@ h3 {
       padding: 40px; }
 
 /* Aca comienza para celular */
+@media screen and (max-width: 428px) {
+  .container a {
+    margin: 0; } }
+
 @media screen and (max-width: 768px) {
   .grid-container a {
     font-size: 1.1em;
