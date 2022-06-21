@@ -34,6 +34,12 @@ body {
         "main"
         "footer";
 
+        a {
+            font-size: 1.4em;
+            text-align: center;
+            
+        }
+
 }
 
 .header {
@@ -100,7 +106,7 @@ h3 {
 
         }
 
-        p{
+        p {
             text-align: center;
         }
 
@@ -159,18 +165,19 @@ h3 {
 
 
         @include carta;
-        background-color:map-get($color-secundario, secundario );
+        background-color: map-get($color-secundario, secundario);
     }
 
     .carta2 {
 
         @include carta;
-         background-color:map-get($color-secundario, secundario );
+        background-color: map-get($color-secundario, secundario);
     }
 
     .carta3 {
 
-        @include carta; background-color:map-get($color-secundario, secundario ); 
+        @include carta;
+        background-color: map-get($color-secundario, secundario);
     }
 
     .carta1:first-child {
@@ -387,14 +394,19 @@ h3 {
 
 /* Aca comienza para celular */
 
-@media screen and (max-width: 428px){
-    .container
+@media screen and (max-width: 428px) {
 
-    a{
-        margin: 0;
-        
+    .grid-container {
+
+
+
+        a {
+            font-size: 1.3em;
+           
+        }
     }
-    
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -402,13 +414,13 @@ h3 {
 
 
 
-    .grid-container a {
+    /* .grid-container a {
         font-size: 1.1em;
         text-align: center;
 
 
 
-    }
+    } */
 
 
     #presentacion .contain {
