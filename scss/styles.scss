@@ -20,8 +20,9 @@ html {
 }
 
 body {
-    background-image: url(../IMG/fondo.jpg);
+    
     min-height: 100%;
+    background-color: #FCC5BB;
 }
 
 .grid-container {
@@ -289,7 +290,12 @@ h3 {
 
 }
 
+/* Como comprar */
 
+.list-group-item{
+
+background-color: #FCC5BB;
+}
 
 /* Aca comienza contacto */
 
@@ -407,20 +413,21 @@ h3 {
     }
 
 
+    .img-quienes-somos img {
+        width: 250px;
+      
+    }
+   }
+
+@media screen and (max-width: 575px) {
+
+    .footer {
+        text-align: center;
+    }
 }
 
+
 @media screen and (max-width: 768px) {
-
-
-
-
-    /* .grid-container a {
-        font-size: 1.1em;
-        text-align: center;
-
-
-
-    } */
 
 
     #presentacion .contain {
